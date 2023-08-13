@@ -67,30 +67,30 @@ require_once('partials/_head.php');
               <form method="POST" enctype="multipart/form-data">
                 <div class="form-row">
                   <div class="col-md-6">
-                    <label>Product Name</label>
+                    <label>Service Name</label>
                     <input type="text" name="prod_name" class="form-control">
                     <input type="hidden" name="prod_id" value="<?php echo $prod_id; ?>" class="form-control">
                   </div>
                   <div class="col-md-6">
-                    <label>Product Code</label>
+                    <label>Service Code</label>
                     <input type="text" name="prod_code" value="<?php echo $alpha; ?>-<?php echo $beta; ?>" class="form-control" value="">
                   </div>
                 </div>
                 <hr>
                 <div class="form-row">
                   <div class="col-md-6">
-                    <label>Product Image</label>
+                    <label>Service Image</label>
                     <input type="file" name="prod_img" class="btn btn-outline-success form-control" value="">
                   </div>
                   <div class="col-md-6">
-                    <label>Product Price</label>
+                    <label>Service Price</label>
                     <input type="text" name="prod_price" class="form-control" value="">
                   </div>
                 </div>
                 <hr>
                 <div class="form-row">
                   <div class="col-md-12">
-                    <label>Product Description</label>
+                    <label>Service Description</label>
                     <textarea rows="5" name="prod_desc" class="form-control" value=""></textarea>
                   </div>
                 </div>

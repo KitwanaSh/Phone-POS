@@ -47,7 +47,7 @@ require_once('partials/_head.php');
             <div class="card-header border-0">
               <a href="add_product.php" class="btn btn-outline-success">
                 <i class="fas fa-utensils"></i>
-                Add New Product
+                Add New Service
               </a><!-- For more projects: Visit codeastro.com  -->
             </div>
             <div class="table-responsive">
@@ -55,7 +55,7 @@ require_once('partials/_head.php');
                 <thead class="thead-light">
                   <tr>
                     <th scope="col">Image</th>
-                    <th scope="col">Product Code</th>
+                    <th scope="col">Service Code</th>
                     <th scope="col">Name</th>
                     <th scope="col">Price</th>
                     <th scope="col">Actions</th>
