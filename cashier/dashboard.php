@@ -159,7 +159,6 @@ require_once('partials/_analytics.php');
           </div>
         </div>
       </div>
-		<!-- For more projects: Visit codeastro.com  -->
       <div class="row mt-5">
         <div class="col-xl-12">
           <div class="card shadow">
