@@ -25,7 +25,7 @@ require_once('partials/_head.php');
         <div class="header-body">
         </div>
       </div>
-    </div><!-- For more projects: Visit codeastro.com  -->
+    </div>
     <!-- Page content -->
     <div class="container-fluid mt--8">
       <!-- Table -->
@@ -33,19 +33,19 @@ require_once('partials/_head.php');
         <div class="col">
           <div class="card shadow">
             <div class="card-header border-0">
-              Select On Any Product To Make An Order
+              Select On Any Service To Make An Order
             </div>
             <div class="table-responsive">
               <table class="table align-items-center table-flush">
                 <thead class="thead-light">
                   <tr>
                     <th scope="col"><b>Image</b></th>
-                    <th scope="col"><b>Product Code</b></th>
+                    <th scope="col"><b>Service Code</b></th>
                     <th scope="col"><b>Name</b></th>
                     <th scope="col"><b>Price</b></th>
                     <th scope="col"><b>Action</b></th>
                   </tr>
-                </thead><!-- For more projects: Visit codeastro.com  -->
+                </thead>
                 <tbody>
                   <?php
                   $ret = "SELECT * FROM  rpos_products ";
@@ -95,5 +95,5 @@ require_once('partials/_head.php');
   require_once('partials/_scripts.php');
   ?>
 </body>
-<!-- For more projects: Visit codeastro.com  -->
+
 </html>
