@@ -20,7 +20,7 @@ require_once('partials/_head.php');
 ?>
 
 <body>
-  <!-- Sidenav --><
+  <!-- Sidenav -->
   <?php
   require_once('partials/_sidebar.php');
   ?>
@@ -48,7 +48,7 @@ require_once('partials/_head.php');
               <a href="add_product.php" class="btn btn-outline-success">
                 <i class="fas fa-utensils"></i>
                 Add New Service
-              </a><
+              </a>
             </div>
             <div class="table-responsive">
               <table class="table align-items-center table-flush">
@@ -60,7 +60,7 @@ require_once('partials/_head.php');
                     <th scope="col">Price</th>
                     <th scope="col">Actions</th>
                   </tr>
-                </thead><
+                </thead>
                 <tbody>
                   <?php
                   $ret = "SELECT * FROM  rpos_products ";
@@ -98,7 +98,7 @@ require_once('partials/_head.php');
                           </button>
                         </a>
                       </td>
-                    </tr><
+                    </tr>
                   <?php } ?>
                 </tbody>
               </table>
