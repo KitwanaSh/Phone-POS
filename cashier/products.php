@@ -56,7 +56,7 @@ require_once('partials/_head.php');
                                 <thead class="thead-light">
                                     <tr>
                                         <th scope="col">Image</th>
-                                        <th scope="col">Product Code</th>
+                                        <th scope="col">Service Code</th>
                                         <th scope="col">Name</th>
                                         <th scope="col">Price</th>
                                         <th scope="col">Action</th>

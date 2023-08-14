@@ -108,11 +108,11 @@ require_once('partials/_head.php');
                 ?>
                   <div class="form-row">
                     <div class="col-md-6">
-                      <label>Product Price ($)</label>
+                      <label>Service Price ($)</label>
                       <input type="text" readonly name="prod_price" value="$ <?php echo $prod->prod_price; ?>" class="form-control">
                     </div>
                     <div class="col-md-6">
-                      <label>Product Quantity</label>
+                      <label>Service Quantity</label>
                       <input type="text" name="prod_qty" class="form-control" value="">
                     </div>
                   </div>

@@ -40,7 +40,7 @@ require_once('partials/_head.php');
                                     <tr>
                                         <th class="text-success" scope="col">Code</th>
                                         <th scope="col">Customer</th>
-                                        <th class="text-success" scope="col">Product</th>
+                                        <th class="text-success" scope="col">Service</th>
                                         <th scope="col">Unit Price</th>
                                         <th class="text-success" scope="col">#</th>
                                         <th scope="col">Total Price</th>
