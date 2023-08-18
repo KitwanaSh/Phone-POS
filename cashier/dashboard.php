@@ -20,11 +20,12 @@ require_once('partials/_analytics.php');
     require_once('partials/_topnav.php');
     ?>
     <!-- Header -->
+<!--
     <div style="background-image: url(../admin/assets/img/theme/restro00.jpg); background-size: cover;" class="header  pb-8 pt-5 pt-md-8">
       <span class="mask bg-gradient-dark opacity-8"></span>
       <div class="container-fluid">
         <div class="header-body">
-          <!-- Card stats -->
+           Card stats 
           <div class="row">
             <div class="col-xl-3 col-lg-6">
               <div class="card card-stats mb-4 mb-xl-0">
@@ -98,6 +99,7 @@ require_once('partials/_analytics.php');
         </div>
       </div>
     </div>
+-->
     <!-- Page content -->
     <div class="container-fluid mt--7">
       <div class="row mt-5">
