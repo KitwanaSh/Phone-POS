@@ -102,11 +102,13 @@ while ($admin = $res->fetch_object()) {
               <i class="ni ni-bullet-list-67 text-primary"></i>Services
             </a>
           </li>
+<!--
           <li class="nav-item">
             <a class="nav-link" href="orders.php">
               <i class="ni ni-cart text-primary"></i> Orders
             </a>
           </li>
+-->
           <li class="nav-item">
             <a class="nav-link" href="payments.php">
               <i class="ni ni-credit-card text-primary"></i> Payments
